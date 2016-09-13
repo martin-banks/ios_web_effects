@@ -21,6 +21,7 @@
 
 .shadow {
 	transform: scale(0.9)  translateY(30px);
+	-webkit-filter: blur(25px);
 	filter: blur(25px);
 	background-color: #000;
 }
@@ -33,9 +34,10 @@
 }
 
 .card:hover{ 
-	transform: scale(1.05) translateY(-10px);
+	transform: scale(1.04) translateY(-5px);
 }
 .card:hover .shadow {
 	transform: scale(0.85) translateY(40px);
+	-webkit-filter: blur(30px);
 	filter: blur(30px);
 }
